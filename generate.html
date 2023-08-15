@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
+
+    <title>Gerador CPF</title>
+</head>
+<body>
+    <div class="corpo">
+        <div class="card-form">
+            <div class="cabecalho">
+                <span class="texto-card">GERAR</span>
+            </div>
+            <input class="cpfInput" id="cpfGerado" type="text" readonly
+            maxlength="11" placeholder="Digite o CPF">
+            <button class="botao" id="btn-resultado" onclick="gerarCPF()">Gerar</button>
+            <a id="botao-voltar" class="botao" href="index.html">Voltar</a>
+        </div>
+    </div>
+</body>
+</html>
+<script src="javascript.js"></script>
